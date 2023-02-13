@@ -1,0 +1,57 @@
+body {
+  padding: 10px;
+}
+/* =====================Header===================== */
+.header {
+  height: 50px;
+  display: flex;
+  flex-direction: row;
+}
+
+/* =====================Left===================== */
+.header_l {
+  flex-grow: 1;
+  margin: 5px;
+  background-color: blanchedalmond;
+}
+.header_l .btn-bars {
+  background-color: white;
+  border: none;
+  font-size: medium;
+  width: 40px;
+  height: 40px;
+}
+.header_l .btn-bars:hover {
+  /* background-color: white;
+  border: none;
+  font-size: medium;
+  width: 24px;
+  height: 24px; */
+  background-color: rgb(201, 209, 216);
+  border-radius: 50%;
+}
+
+.header_l .btn-bars i {
+  font-weight: 600;
+}
+/* =====================Mid===================== */
+.header_m {
+  align-items: center;
+  justify-content: space-between;
+  flex-grow: 1;
+  margin: 5px;
+  background-color: blanchedalmond;
+}
+
+.header_m .input_search input {
+  width: 90%;
+  height: 30px;
+  border-radius: 25px;
+  border: 1px solid black;
+  /* padding: 0px 4px 0px 16px; */
+}
+/* =====================Right===================== */
+.header_r {
+  display: flex;
+  align-items: center;
+}
